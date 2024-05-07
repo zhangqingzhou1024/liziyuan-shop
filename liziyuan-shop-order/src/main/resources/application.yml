@@ -1,0 +1,12 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: liziyuan-shop-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: liziyuan
+        group: liziyuan
